@@ -55,5 +55,4 @@ Output: **`wlan_keys.txt`**.
 
 ## License
 
-No license is specified in this repository by default. Add a `LICENSE` file if you intend others to reuse the code.
-"# Windows-Wi-Fi-Key-Exporter" 
+[MIT](LICENSE)

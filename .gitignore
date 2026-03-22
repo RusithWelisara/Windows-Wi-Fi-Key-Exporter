@@ -1,0 +1,7 @@
+# Exported data (may contain Wi-Fi passwords)
+wlan_profiles.txt
+wlan_keys.txt
+
+# Windows
+Thumbs.db
+Desktop.ini
