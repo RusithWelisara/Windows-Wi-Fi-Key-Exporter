@@ -1,0 +1,15 @@
+# Wi-Fi Key Content export
+# Generated: 2026-01-15 14:30:00
+# Keep this file private. Run as Administrator if Key Content is missing.
+
+SSID / profile: HomeNetwork-5G
+Key Content: Correct-Horse-Battery-Staple-99
+
+SSID / profile: Office Guest
+Key Content: Example-Key-Not-Real-12345
+
+SSID / profile: Cafe_WiFi_Open
+Key Content: (none — open network, missing rights, or key not stored)
+
+SSID / profile: Neighbor's Router
+Key Content: TotallyFakePassphrase

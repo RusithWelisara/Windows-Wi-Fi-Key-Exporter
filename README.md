@@ -15,8 +15,9 @@ Small Windows helpers that use **`netsh wlan`** to list saved Wi‑Fi profiles a
 | `save-wlan-profiles.bat` | Runs `netsh wlan show profile` and saves the full listing to **`wlan_profiles.txt`**. |
 | `export-wlan-keys.bat` | Launches the PowerShell script with `-ExecutionPolicy Bypass`. |
 | `export-wlan-keys.ps1` | Enumerates profiles, runs `netsh wlan show profile name="…" key=clear` for each, parses **Key Content**, writes **`wlan_keys.txt`**. |
+| `wlan_keys.sample.txt` | Example of the export format (fake data only; safe to commit). |
 
-Output files are created **next to the scripts** (same folder).
+Output files are created **next to the scripts** (same folder). The real **`wlan_keys.txt`** is gitignored; **`wlan_keys.sample.txt`** shows the same layout with fictional values.
 
 ## How to run
 
@@ -41,6 +42,10 @@ Set-Location "path\to\this\repo"
 ```
 
 Output: **`wlan_keys.txt`**.
+
+### Sample output
+
+See **`wlan_keys.sample.txt`** for the same layout with **fictional** SSIDs and keys (nothing real; intended for README / GitHub browsing).
 
 ## Security and privacy
 
